@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #f0f0f0;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.header-background {
+    background-image: url('https://i.pinimg.com/736x/dd/1e/cc/dd1ecce5f5ef5497b03a531b52af9cd3.jpg'); /* Replace with your desired Asmara image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Adjust height as needed */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.main-content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.gallery-image {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.highlights {
+    background: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.highlights ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #4A90E2;
+    color: white;
+}
